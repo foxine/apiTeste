@@ -6,5 +6,5 @@ use App\Http\Controllers\CepController;
 Route::get('/search/local/{ceps}', [CepController::class, 'search']);
 
 Route::get('/', function () {
-    return view('welcome');
+    return "Teste API CEP - Laravel 11";
 });
